@@ -21,9 +21,9 @@ Reference it in `package.json` using the `prettier` property:
 ```json
 {
 	"name": "my-projects-name",
-	"prettier": "@alehechka/react-ts-config",
+	"prettier": "@alehechka/react-ts-config/.prettierrc.json",
 	"devDependencies": {
-		"@alehechka/react-ts-config": "^1.0.4",
+		"@alehechka/react-ts-config": "^1.0.6",
 		"husky": "^4.3.0",
 		"lint-staged": "^10.3.0",
 		"prettier": "^2.1.1"
