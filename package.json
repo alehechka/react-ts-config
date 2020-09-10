@@ -1,11 +1,10 @@
 {
 	"name": "@alehechka/react-ts-config",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "A TypeScript config basis. Includes, tsconfig, tslint, tslint.commit, and prettier configurations.",
 	"main": ".",
 	"files": [
 		".prettierrc.json",
-		".vscode",
 		"tsconfig.json",
 		"tslint.json",
 		"tslint.commit.json"
