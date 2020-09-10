@@ -1,6 +1,6 @@
 {
 	"name": "@alehechka/react-ts-config",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A TypeScript config basis. Includes, tsconfig, tslint, tslint.commit, and prettier configurations.",
 	"main": ".",
 	"files": [
@@ -43,7 +43,6 @@
 		"tslint": "^6.1.3",
 		"@alehechka/prettier-config": "^1.0.1"
 	},
-	"prettier": "@alehechka/prettier-config",
 	"author": "Adam Lehechka (https://github.com/alehechka)",
 	"license": "MIT",
 	"publishConfig": {
