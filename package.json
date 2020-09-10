@@ -1,0 +1,56 @@
+{
+	"name": "@alehechka/react-ts-config",
+	"version": "1.0.0",
+	"description": "A TypeScript config basis. Includes, tsconfig, tslint, tslint.commit, and prettier configurations.",
+	"main": ".",
+	"files": [
+		".prettierrc.json",
+		".vscode",
+		"tsconfig.json",
+		"tslint.json",
+		"tslint.commit.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:alehechka/react-ts-config.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config",
+		"eslintplugin",
+		"eslint-plugin",
+		"JavaScript Standard Style",
+		"jsstandard",
+		"lint",
+		"prettier",
+		"prettierconfig",
+		"prettier-config",
+		"standard",
+		"standard style"
+	],
+	"scripts": {
+		"pregit": "git add *",
+		"git": "git commit",
+		"postgit": "git push"
+	},
+	"peerDependencies": {
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-etc": "^1.13.7",
+		"tslint-react-hooks": "^2.2.2"
+	},
+	"devDependencies": {
+		"@alehechka/prettier-config": "^1.0.1",
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-etc": "^1.13.7",
+		"tslint-react-hooks": "^2.2.2"
+	},
+	"prettier": "@alehechka/prettier-config",
+	"author": "Adam Lehechka (https://github.com/alehechka)",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://registry-url"
+	}
+}
